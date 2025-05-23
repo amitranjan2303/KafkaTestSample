@@ -9,9 +9,9 @@
  Steps to use sample
 # * Note for the latest changes please follow Dependencies Latest Guide line
 
-   1 Start Docker 
-   2 Start Zookeeper
-   3 Start Kaka
+   1. Start Docker 
+   2. Start Zookeeper
+   3. Start Kaka
    
  And now run you consumer and producer then open your postman 
    - use below json request to produce message 
@@ -29,8 +29,11 @@
  ```
  
   - use below url to get produced messaage
-  
+   
+   ```
     URL - http://localhost:8080/api/v1/user/message/{id}
+  
+   ```
   
 
 <----------------------------------Enjoy your code--------------------------------->
@@ -38,7 +41,7 @@
 ## Author
 
 Amit Ranjan  
-Software Engineer  
+Sr. Software Engineer  
 <br>
 **Mobile**: +91 9643 595 785  
 **E-mail**: amitranjan2303@gmail.com  
