@@ -28,7 +28,7 @@
 
  ```
  
-  - use below url to get produced messaage
+  - use below url to consumed messaage
    
    ```
     URL - http://localhost:8080/api/v1/user/message/{id}
