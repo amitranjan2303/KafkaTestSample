@@ -16,7 +16,7 @@ public class ConsumerController {
     @Autowired
     private KafkaConsumerService kafkaConsumerService;
 
-    @GetMapping("/{id}")
+    @GetMapping("message/{id}")
     public ResponseEntity<LocationInfo> getMessage(@PathVariable String id) {
         LocationInfo message = kafkaConsumerService.getMessage(id);
         if (message != null) {
