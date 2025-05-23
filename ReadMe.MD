@@ -11,7 +11,7 @@
 
    1. Start Docker 
    2. Start Zookeeper
-   3. Start Kaka
+   3. Start Kafka
    
  And now run you consumer and producer then open your postman 
    - use below json request to produce message 
